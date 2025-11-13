@@ -1,0 +1,3 @@
+[submodule "project"]
+	branch = master
+	update = merge
