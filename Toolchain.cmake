@@ -31,3 +31,4 @@ macro (set_toolchain)
     set(CMAKE_CXX_COMPILER_WORKS TRUE)
     set(CMAKE_ASM_COMPILER_WORKS TRUE)
 endmacro()
+
