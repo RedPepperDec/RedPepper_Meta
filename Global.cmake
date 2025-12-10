@@ -39,4 +39,8 @@ add_compile_definitions(NN_PLATFORM_CTR)
 if (NOT ONLY_MATCHING)
     add_compile_definitions(NON_MATCHING)
 endif()
+if (NOT RP_VERSION)
+  message("NO VERSION SPECIFIED, PLEASE DEFINE RP_VERSION")
+endif()
+add_compile_definitions(RP_VERSION="${RP_VERSION}")
 
