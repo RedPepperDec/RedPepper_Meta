@@ -36,7 +36,7 @@ add_compile_options(--force_new_nothrow --no_rtti)
 add_compile_options(--no_exceptions --no_rtti_data --forceinline --no_vfe) # vfe should be enabled
 
 add_compile_definitions(NN_PLATFORM_CTR)
-if (NON_MATCHING)
+if (NOT ONLY_MATCHING)
     add_compile_definitions(NON_MATCHING)
 endif()
 
